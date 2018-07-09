@@ -11,13 +11,13 @@ rm ./content6.zip
 
 cd ./Content1
 zip -er ../content1.zip ./*
-cd ./Content2
+cd ../Content2
 zip -er ../content2.zip ./*
-cd ./Content3
+cd ../Content3
 zip -er ../content3.zip ./*
-cd ./Content4
+cd ../Content4
 zip -er ../content4.zip ./*
-cd ./Content5
+cd ../Content5
 zip -er ../content5.zip ./*
-cd ./Content6
+cd ../Content6
 zip -er ../content6.zip ./*
