@@ -9,9 +9,15 @@ rm ./content4.zip
 rm ./content5.zip
 rm ./content6.zip
 
-zip -er content1.zip ./Content1
-zip -er content2.zip ./Content2
-zip -er content3.zip ./Content3
-zip -er content4.zip ./Content4
-zip -er content5.zip ./Content5
-zip -er content6.zip ./Content6
+cd ./Content1
+zip -er ../content1.zip ./*
+cd ./Content2
+zip -er ../content2.zip ./*
+cd ./Content3
+zip -er ../content3.zip ./*
+cd ./Content4
+zip -er ../content4.zip ./*
+cd ./Content5
+zip -er ../content5.zip ./*
+cd ./Content6
+zip -er ../content6.zip ./*
